@@ -8,4 +8,11 @@ Within the folder `BiH`, `main.py` contains the whole of the code. Basically, th
 ## Data
 Usually, you would want to update the data rather than the code.
 
-### 
+### Categories
+The categories are listed in the file `categories.csv`. The fields are tab separated.
+
+```category	icon	priority
+Airport	airport	  30
+Bakery	bread	    20
+Bank	bank_euro	  20
+```
