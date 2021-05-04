@@ -1,4 +1,5 @@
 # Map of Bosnia Herzegovina
+This is the repository for the NHDR 2020 map application. The repository is connected to the `heroku` app at https://bihmap.herokuapp.com/BiH. Whenever a modification is made to this repository, the `heroku` app is automatically recompiled and reloaded. So, please wait a couple of minutes after a modification and reload the app.  
 
 ## Files
 The top level files `Procfile` and `Requirements.txt` are configuration files for the heroku application. You don't need to modify these files. The code and the data sits in the folder `BiH`.
