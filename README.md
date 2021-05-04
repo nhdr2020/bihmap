@@ -35,4 +35,11 @@ The maps are in `shape` format. Basically, each `shape` consists of 4 files with
 
 The country map is in the folder `BiH/data/country/`. You do not need to modify anything in this folder.
 
-The maps for municipalities are in the folder `BiH/data/municipalities`, each in `shape` format consisting 4 files.
+The maps for municipalities are in the folder `BiH/data/municipalities`, each in `shape` format consisting of 4 files.
+
+### Adding new municipalities
+If you want to add new municapility (or any administrative region) to the map, you need to generate its `shape` and put it in the folder `BiH/data/municipalities`.
+
+There are several ways to create `shape` files for regions, cities etc. Here is a simple method that does not involve any software setup. It uses freely available web resources.
+
+1. Go to https://www.openstreetmap.org/ and 
