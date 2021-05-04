@@ -11,8 +11,9 @@ Usually, you would want to update the data rather than the code.
 ### Categories
 The categories are listed in the file `categories.csv`. The fields are tab separated.
 
-```category	icon	priority
+```
+category	icon	priority
 Airport	airport	  30
-Bakery	bread	    20
-Bank	bank_euro	  20
+Bakery	bread	   20
+Bank	bank_euro	 20
 ```
