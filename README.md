@@ -40,6 +40,6 @@ The maps for municipalities are in the folder `BiH/data/municipalities`, each in
 ### Adding new municipalities
 If you want to add new municapility (or any administrative region) to the map, you need to generate its `shape` and put it in the folder `BiH/data/municipalities`.
 
-There are several ways to create `shape` files for regions, cities etc. Here is a simple method that does not involve any software setup. It uses freely available web resources.
+There are several ways to create `shape` files for regions, cities etc. Here is a simple method that does not involve any software setup. It uses freely available web resources. The procedure is described in more detail in https://peteris.rocks/blog/openstreetmap-administrative-boundaries-in-geojson/.
 
-1. Go to https://www.openstreetmap.org/ and 
+1. Go to https://www.openstreetmap.org/ and search for the administrative unit by its name. Click on the unit link among the search results. It should show you the boundaries of the administrative unit. Copy the `ID` given in the brackets. For example, for Sarajevo, you will see `Relation: City of Sarajevo (2567380)`. Here `2567380` is the `ID`.
